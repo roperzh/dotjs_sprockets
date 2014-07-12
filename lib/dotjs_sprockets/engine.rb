@@ -21,8 +21,8 @@ module DotjsSprockets
       #
       # @since 0.1.0
       def precompile(full_path)
-        template = open(full_path).read.chomp
-        context.eval("doT.compile('#{template}').toString()")
+        template = open(full_path).read
+        context.eval("doT.compile(#{template.inspect}).toString()")
       end
 
     private
