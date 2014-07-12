@@ -1,5 +1,6 @@
 # DotjsSprockets
 
+[![Gem Version](https://badge.fury.io/rb/dotjs_sprockets.svg)](http://badge.fury.io/rb/dotjs_sprockets)
 [![Code Climate](https://codeclimate.com/github/roperzh/dotjs_sprockets.png)](https://codeclimate.com/github/roperzh/dotjs_sprockets)
 [![Inline docs](http://inch-ci.org/github/roperzh/dotjs_sprockets.png?branch=master)](http://inch-ci.org/github/roperzh/dotjs_sprockets)
 
