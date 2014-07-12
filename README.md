@@ -11,7 +11,7 @@
 Add this line to your application's Gemfile:
 
 ```ruby
- gem "dotjs-sprockets"
+ gem "dotjs_sprockets"
 ```
 
 And then execute:
