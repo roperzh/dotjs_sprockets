@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["dip.jesusr@gmail.com"]
   spec.summary       = %q{doT.js templates for sprockets.}
   spec.description   = %q{doT.js templates for sprockets powered by ExecJS.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/roperzh/dotjs_sprockets"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -19,8 +19,8 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.6"
-  spec.add_development_dependency "rake"
+  spec.add_development_dependency "rake",    "~> 0"
 
-  spec.add_runtime_dependency "sprockets"
-  spec.add_runtime_dependency "execjs"
+  spec.add_runtime_dependency "sprockets", "~> 2"
+  spec.add_runtime_dependency "execjs",    "~> 2"
 end
