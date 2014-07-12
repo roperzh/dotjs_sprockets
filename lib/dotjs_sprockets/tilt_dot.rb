@@ -10,13 +10,25 @@ module DotjsSprockets
   #
   # @since 0.1.0
   class TiltDot < Tilt::Template
+    # Define the mime type of the template
+    #
+    # @since 0.1.0
     def self.default_mime_type
       "application/javascript"
     end
 
+    # Required method definition in order to implement the Tilt::Template
+    # interface
+    #
+    # @since 0.1.0
     def prepare
     end
 
+    # Execute the compiled template and return the result string
+    #
+    # @return [String] the compiled template
+    #
+    # @since 0.1.0
     def evaluate(scope, locals, &block)
       template_name = scope.pathname
       DotjsSprockets::Engine.precompile(template_name)
