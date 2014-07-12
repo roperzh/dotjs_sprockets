@@ -1,5 +1,7 @@
 # Dotjs::Sprockets
 
+[![Inline docs](http://inch-ci.org/github/roperzh/dotjs_sprockets.png?branch=master)](http://inch-ci.org/github/roperzh/dotjs_sprockets)
+
 [doT.js](https://github.com/olado/doT) templates for [sprockets](https://github.com/sstephenson/sprockets).
 
 ## Installation
