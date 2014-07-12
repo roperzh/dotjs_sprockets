@@ -55,8 +55,7 @@ JST["my_template"]() //=> <h2>Hello!</h2> ...
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/dotjs-sprockets/fork )
+1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+3. Push to the branch (`git push origin my-new-feature`)
+4. Create a new Pull Request
