@@ -1,5 +1,5 @@
-require "dotjs_sprockets/version"
+require "dotjs_sprockets/constants"
+require "dotjs_sprockets/engine"
+require "dotjs_sprockets/tilt_dot"
 
-module DotjsSprockets
-  # Your code goes here...
-end
+Sprockets.register_engine ::DotjsSprockets::EXTENSION, DotjsSprockets::TiltDot
